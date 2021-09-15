@@ -27,7 +27,7 @@ header {
   justify-content: center;
   border-radius: 6px;
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   display: grid;
   margin-left: 30vw;
   margin-right: 30vw;
@@ -157,6 +157,7 @@ p {
 #motto {
   text-align: center;
   font-size: 1.2em;
+  margin-bottom: 20vw;
 }
 
 .whitepart {
