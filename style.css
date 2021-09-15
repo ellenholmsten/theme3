@@ -157,7 +157,6 @@ p {
 #motto {
   text-align: center;
   font-size: 1.2em;
-  margin-bottom: 20vw;
 }
 
 .whitepart {
@@ -183,4 +182,32 @@ p {
 .listing {
   font-family: arialnormal;
   color: #988486;
+}
+
+.taskbox {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30vw;
+  margin-right: 30vw;
+}
+
+#task {
+  text-align: center;
+}
+
+.placement {
+  display: grid;
+}
+
+.box {
+  border: 2px dashed rgba(255, 255, 255, 0.4);
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #df645f;
+  padding: 30px 250px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 24px;
+  width: fit-content;
+  justify-self: center;
+  margin-bottom: 20vw;
 }
